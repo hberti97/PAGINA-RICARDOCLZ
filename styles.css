@@ -1,0 +1,77 @@
+body {
+    background: #4B79A1;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0 0 0 ;
+}
+
+
+.icone_inicio {
+    border: 3px solid transparent;
+    border-radius: 25px;
+    font-weight: 300;
+    color: #cf0808;
+    text-decoration: none;
+}
+
+
+
+.d-block {
+    display: inline-block ;
+}
+
+
+.divisao {
+    color: rgb(2, 2, 2);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.principal {
+    align-items: center;
+    margin:  5em;
+    
+}
+
+.imagem__sobre {
+    width: 60%;
+}
+
+.sobre__titulo {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+
+.imagem__servico {
+    width: 80%;
+    align-items: center;
+    display: block;
+}
+
+.titulo__secundario {
+    text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+
+    margin-bottom: 0.1em;
+}
+
+.botao {
+    align-items: center;
+}
