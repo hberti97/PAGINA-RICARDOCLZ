@@ -176,7 +176,7 @@ background: linear-gradient(to left, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Fi
 
 footer{
     text-align: center;
-    background: url("/clz/img/bg.jpg");
+    background: url("img/bg.jpg");
     padding: 40px 0;
     
 }
